@@ -1,0 +1,164 @@
+body
+{
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+#title
+{
+    font-size: 40px;
+    transform: translateY(20PX);
+    margin-left: 450px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+#highlight
+{
+  border-bottom: 6px solid #007BFF; 
+  border-radius: 4px;
+  padding-bottom: 10px; 
+  display: inline-block;
+}
+
+.container {
+    margin-left: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-items: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    width: 1200px;
+}
+.product {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;         
+    width: 220px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.image {
+ position: absolute; 
+    top: 10px;         
+    right: 10px;       
+    width: 240px;       
+    height: 180px;
+   
+}
+.card-content {
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.title-product {
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif; 
+    margin-top: 180px; 
+    text-align: left;
+}
+.title-product {
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif; 
+    margin-top: 180px; 
+    text-align: left;
+}
+.details {
+    color: rgba(50, 50, 50, 0.5882);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif;  
+    text-align: left;
+}
+
+.price-after {
+    display: flow-root;
+    color: rgba(40, 167, 69, 1);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif;  
+    text-align: left;
+}
+.price-before {
+    color: rgba(220, 53, 69, 1);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif;  
+    text-align: left;
+    text-decoration: line-through;
+}
+.cart {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+}
+.add-to-cart {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 200px;
+}
+.Favorite {
+    background-color: transparent;
+    border: 2px solid rgba(220, 53, 69, 1);
+    padding: 10px;
+    border-radius: 4px;
+    border-color: rgba(0, 123, 255, 1);
+}
+
+.for-sale {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background-color: #ffe600;
+    color: #000000;
+    width: 60px;
+    padding: 9px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+.sold {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(60deg);
+    top: 170px;
+    right: -190px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: #ff0000;
+    width: 600px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 40px;
+    font-family: Glory, 'Trebuchet MS', Helvetica, sans-serif;
+}
+.shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #0000003d;
+    padding: 100%;
+    width: 100%;
+}
